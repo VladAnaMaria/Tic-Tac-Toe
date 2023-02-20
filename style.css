@@ -1,0 +1,48 @@
+.squere-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.square {
+    background-color: #72e093;
+    width: 200px;
+    height: 200px;
+    border-style: outset;
+}
+
+.turn-group {
+    display: flex;
+    gap: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.player-turn {
+    display: flex;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.player {
+    text-align: center;
+    background-color: #e7f1ea;
+    width: 75px;
+    height: 35px;
+    border-top-style: groove;
+    border-right-style: none;
+    border-bottom-style: groove;
+    border-left-style: groove;
+}
+
+.turn {
+    text-align: center;
+    background-color: #e7f1ea;
+    width: 75px;
+    height: 35px;
+    border-top-style: groove;
+    border-right-style: groove;
+    border-bottom-style: groove;
+    border-left-style: none;
+}
