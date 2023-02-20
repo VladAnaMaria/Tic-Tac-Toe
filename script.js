@@ -21,7 +21,7 @@ function drawO() {
 function markedSquare(clicked_id) {
     canvas = document.getElementById('canvas' + clicked_id).getContext('2d');
     let i = Math.floor(clicked_id / 3), j = Math.floor(clicked_id % 3);
-    if(gameIsOver == 1 || matrix[i][j] != -1){
+    if (gameIsOver == 1 || matrix[i][j] != -1) {
         return;
     }
     if (flag == 1 && counter < 9) {
